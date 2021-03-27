@@ -1,0 +1,149 @@
+﻿
+h1{
+color:white;
+text-align: center;
+font-size: 50px;
+}
+#s3{
+height=50px;
+background-color: red;
+  animation-name: example;
+  animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color: AntiqueWhite;}
+  2%  {background-color: Aqua;}
+4%  {background-color: Aquamarine;}
+6%  {background-color: Azure;}
+8%  {background-color: BlanchedAlmond;}
+10%  {background-color: Blue;}
+12%  {background-color:BlueViolet;}
+14%  {background-color: Brown;}
+16%  {background-color: BurlyWood;}
+18%  {background-color: CadetBlue;}
+20%  {background-color: Chartreuse;}
+22%  {background-color: Chocolate;}
+24%  {background-color: Coral;}
+ 26%  {background-color: CornflowerBlue;}
+ 28%  {background-color: Crimson;}
+ 30%  {background-color: Cyan;}
+ 32%  {background-color: DarkBlue;}
+ 34%  {background-color: DarkCyan;}
+ 36%  {background-color: DarkGoldenRod;}
+ 38%  {background-color: DarkGrey;}
+ 40%  {background-color: DarkGreen;}
+ 42%  {background-color: DarkKhaki;}
+ 44%  {background-color: DarkOrange;}
+ 46%  {background-color: DarkOrchid;}
+ 48%  {background-color: DarkRed;}
+ 50%  {background-color: DarkSalmon;}
+ 52%  {background-color: DarkSeaGreen;}
+ 54%  {background-color: DarkTurquoise;}
+  56%  {background-color: DeepPink;}
+  58%  {background-color: DodgerBlue;}
+ 60%  {background-color: FireBrick;}
+ 62%  {background-color: Olive;}
+ 64%  {background-color: FloralWhite;}
+ 66%  {background-color: ForestGreen;}
+ 68%  {background-color: Fuchsia;}
+ 70%  {background-color: gray;}
+ 72%  {background-color: Gold;}
+ 74%  {background-color: GoldenRod;}
+ 76%  {background-color: Gray;}
+ 78%  {background-color: Green;}
+ 80%  {background-color: HoneyDew;}
+ 82%  {background-color: GreenYellow;}
+ 84%  {background-color: Lime;}
+ 86%  {background-color: HotPink;}
+ 88%  {background-color: Indigo;}
+ 90%  {background-color: Ivory;}
+ 92%  {background-color: Khaki;}
+ 94%  {background-color: Lavender;}
+ 96%  {background-color: LawnGreen;}
+ 98%  {background-color: LightBlue;}
+  100% {background-color: violet;}
+}
+.button_css
+{
+        font-size:20px;
+	background-color: sea blue;
+	color:DarkBlue;
+        position : relative;
+        left: 140px;
+	width: 130px;
+	height: 40px;
+}
+#s1{
+background-color: LightCoral;
+}
+
+.image{
+position: relative;
+right: 40px;
+ animation: MotionScale 2s alternate linear infinite;
+}
+@keyframes MotionScale{
+from{
+transform: matrix3d(
+1,0,0,0,
+0,1,0,0,
+0,0,1,0,
+0,0,0,1
+);
+}
+50%{
+transform: matrix3d(
+1,0,0,0,
+0,1,0,0,
+0,0,1,0,
+0,0,100,100
+);
+}
+
+to {
+transform: matrix3d(
+1,0,0,0,
+0,1,0,0,
+0,0,1,0,
+100,0,0,1
+);
+}
+}
+
+.image2{
+ animation: MotionScale2 2s alternate linear infinite;
+}
+@keyframes MotionScale2{
+from{
+transform: matrix3d(
+1,0,0,0,
+0,1,0,0,
+0,0,1,0,
+0,0,0,1
+);
+}
+50%{
+transform: matrix3d(
+1,0,0,0,
+0,1,0,0,
+0,0,1,0,
+0,0,100,100
+);
+}
+
+to {
+transform: matrix3d(
+1,0,0,0,
+0,1,0,0,
+0,0,1,0,
+100,0,0,1
+);
+}
+}
+
+
+#s2{
+font-size:40px;
+text-align: center;
+}
