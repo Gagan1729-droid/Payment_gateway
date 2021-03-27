@@ -1,0 +1,38 @@
+﻿h1{
+font-size:100px;
+text-align: center;
+font-family: baskerville;
+color: DeepSeaBlue;
+}
+#s1{
+background-color: LightGreen;
+}
+mark{
+font-family: baskerville;
+color: DarkBlue;
+background-color: white;
+}
+
+.button_css
+{
+        font-size:20px;
+	background-color: sea blue;
+	color:DarkBlue;
+        position : relative;
+        left: 140px;
+	width: 130px;
+	height: 40px;
+}
+.but_css2{
+        font-size:20px;
+	background-color: sea blue;
+	color:DarkBlue;
+        position : relative;
+        left:1000px;
+	width: 110px;
+	height: 35px;
+}
+#s2{
+font-size:40px;
+text-align: center;
+}

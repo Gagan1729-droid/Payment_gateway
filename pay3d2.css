@@ -1,0 +1,36 @@
+﻿#s1{
+font-size: 40px;
+background-color: DeepSkyBlue;
+}
+h1{
+font-size:60px;
+text-align: center;
+font-family: baskerville;
+color: DeepSeaBlue;
+}
+#s2{
+font-size:40px;
+text-align: center;
+}
+#s3{
+background-color: BlanchedAlmond;
+}
+
+.but_css{
+        font-size:20px;
+	background-color: sea blue;
+	color:DarkBlue;
+        position : relative;
+        left: 140px;
+	width: 110px;
+	height: 35px;
+}
+.but_css2{
+        font-size:20px;
+	background-color: sea blue;
+	color:DarkBlue;
+        position : relative;
+        left:1000px;
+	width: 110px;
+	height: 35px;
+}
